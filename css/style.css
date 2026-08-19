@@ -1,3 +1,10 @@
-body {
-  background-color: lightblue;
+:root {
+    --color-ink-90: #1c1f22;
+    --color-ink-50: #5b6066;
+    --color-paper-10:#fbfaf8;
+    --color-paper-30:#e8e5df;
+    --color-brick-50:#b3522e;
+    --color-brick-70:#8a3f22;
 }
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
