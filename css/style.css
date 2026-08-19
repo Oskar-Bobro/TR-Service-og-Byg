@@ -8,3 +8,9 @@
 }
 html { box-sizing: border-box; }
 *, *::before, *::after { box-sizing: inherit; }
+
+html, body {
+    color: var(--color-ink-90);
+    background: var(--color-paper-10);
+
+}
