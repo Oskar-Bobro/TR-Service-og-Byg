@@ -5,12 +5,21 @@
     --color-paper-30:#e8e5df;
     --color-brick-50:#b3522e;
     --color-brick-70:#8a3f22;
+    --color-text-ink-90: #1c1f22;
+    --color-text-muted-50: #5b6066;
+    --color-bg: #fbfaf8;
+    --color-bg-alt:#e8e5df;
+    --color-accent:#b3522e;
+    --color-accent-hover:#8a3f22;
+    --color-border:#e8e5df;
+
+
 }
 html { box-sizing: border-box; }
 *, *::before, *::after { box-sizing: inherit; }
 
 html, body {
-    color: var(--color-ink-90);
-    background: var(--color-paper-10);
+    color: var(--color-text);
+    background: var(--color-bg);
 
 }
