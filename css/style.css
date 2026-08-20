@@ -12,12 +12,21 @@
     --color-accent: var(--color-brick-50);
     --color-accent-hover: var(--color-brick-70);
     --color-border: var(--color-paper-30);
+    --leading-tight: 1.15;
+    --leading-normal: 1.6;
+    --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
 }
 html { box-sizing: border-box; }
 *, *::before, *::after { box-sizing: inherit; }
 
+html {
+    font-family: var(--font-body);
+    font-size: 100%;
+    line-height: var(--leading-normal);
+}
+
 html, body {
     color: var(--color-text);
     background: var(--color-bg);
-
 }
