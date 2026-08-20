@@ -80,3 +80,11 @@ main {
   margin-block: var(--space-lg);
   margin-inline: auto;
 }
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
