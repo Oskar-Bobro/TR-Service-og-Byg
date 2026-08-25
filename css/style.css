@@ -170,3 +170,13 @@ nav ul a {
 #hero a[href="#contact"]:hover {
   background: var(--color-accent-hover);
 }
+
+footer {
+  color: var(--color-text-muted);
+  font-size: var(--text-small);
+}
+
+footer address {
+  font-style: normal;
+  color: var(--color-text);
+}
