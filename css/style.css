@@ -110,3 +110,14 @@ a[href^="tel:"] {
   display: inline-block;
   padding: var(--space-xs);
 }
+
+header {
+  background: var(--color-bg-alt);
+  padding-block: var(--space-sm);
+}
+
+header nav {
+  max-width: 70ch;
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
