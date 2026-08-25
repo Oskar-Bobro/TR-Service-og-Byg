@@ -60,6 +60,7 @@ h4,
 h5,
 h6 {
   line-height: var(--leading-tight);
+  text-wrap: balance;
 }
 
 h1 {
@@ -72,6 +73,10 @@ h2 {
 
 h3 {
   font-size: var(--text-h3);
+}
+
+p {
+  text-wrap: pretty;
 }
 
 main {
