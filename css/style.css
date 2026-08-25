@@ -105,3 +105,8 @@ nav ul {
   padding: 0;
   gap: var(--space-md);
 }
+
+a[href^="tel:"] {
+  display: inline-block;
+  padding: var(--space-xs);
+}
