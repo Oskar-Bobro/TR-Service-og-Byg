@@ -175,6 +175,8 @@ nav ul a {
 
 footer {
   color: var(--color-text-muted);
+  background: var(--color-bg-alt);
+  padding-block: var(--space-xl);
   font-size: var(--text-small);
 }
 
