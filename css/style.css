@@ -114,13 +114,14 @@ header {
   padding-block: var(--space-sm);
 }
 
-header .container {
-  max-width: 100%;
-  padding-inline: var(--space-md);
-}
-
 .container {
   max-width: 70ch;
+  margin-inline: auto;
+  padding-inline: var(--space-lg);
+}
+
+.container-wide {
+  max-width: 72rem;
   margin-inline: auto;
   padding-inline: var(--space-lg);
 }
