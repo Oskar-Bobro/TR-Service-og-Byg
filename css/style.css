@@ -80,10 +80,8 @@ p {
 }
 
 main {
-  max-width: 70ch;
-  padding: var(--space-lg);
   margin-block: var(--space-lg);
-  margin-inline: auto;
+  padding-block: var(--space-lg)
 }
 
 a {
@@ -116,7 +114,7 @@ header {
   padding-block: var(--space-sm);
 }
 
-header nav {
+.container {
   max-width: 70ch;
   margin-inline: auto;
   padding-inline: var(--space-lg);
