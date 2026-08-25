@@ -119,3 +119,17 @@ header {
   margin-inline: auto;
   padding-inline: var(--space-lg);
 }
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.brand {
+  color: var(--color-text);
+  font-weight: 700;
+  text-decoration: none;
+}
