@@ -81,7 +81,7 @@ p {
 
 main {
   margin-block: var(--space-lg);
-  padding-block: var(--space-lg)
+  padding-block: var(--space-lg);
 }
 
 a {
@@ -98,7 +98,7 @@ a:hover {
 }
 
 nav ul {
-  display:flex;
+  display: flex;
   list-style: none;
   padding: 0;
   gap: var(--space-md);
