@@ -133,3 +133,9 @@ header {
   font-weight: 700;
   text-decoration: none;
 }
+
+nav ul a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 500;
+}
