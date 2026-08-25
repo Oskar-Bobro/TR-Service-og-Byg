@@ -144,3 +144,16 @@ nav ul a {
   color: var(--color-text);
   font-weight: 500;
 }
+
+#hero {
+  padding-block: var(--space-2xl);
+}
+
+#hero p {
+  font-size: var(--text-body);
+  color: var(--color-text-muted);
+}
+
+#hero a[href^="tel:"] {
+  font-size: var(--text-h3);
+}
