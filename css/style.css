@@ -32,13 +32,21 @@
   --space-2xl: 6rem;
   --radius-sm: 4px;
 }
+
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 html {
