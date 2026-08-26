@@ -166,6 +166,7 @@ section + section {
   text-decoration: none;
   border-radius: var(--radius-sm);
   border: 2px solid var(--color-accent);
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
 }
 
 .button:hover {
