@@ -104,11 +104,6 @@ nav ul {
   gap: var(--space-md);
 }
 
-a[href^="tel:"]:not(.button) {
-  display: inline-block;
-  padding: var(--space-xs);
-}
-
 header {
   background: var(--color-bg-alt);
   padding-block: var(--space-sm);
