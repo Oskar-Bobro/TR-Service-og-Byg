@@ -188,6 +188,7 @@ footer address {
   justify-content: space-between;
   align-items: start;
   gap: var(--space-md);
+  flex-wrap: wrap;
 }
 
 .footer-row p {
