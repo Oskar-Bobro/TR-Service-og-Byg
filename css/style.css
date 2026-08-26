@@ -94,6 +94,7 @@ main {
 
 a {
   color: var(--color-accent);
+  transition: color 150ms ease; 
 }
 
 a:hover {
