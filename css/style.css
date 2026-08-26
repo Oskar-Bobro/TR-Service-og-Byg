@@ -183,6 +183,17 @@ footer address {
   color: var(--color-text);
 }
 
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: var(--space-md);
+}
+
+.footer-row p {
+  margin-block: 0;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
