@@ -195,4 +195,11 @@ footer address {
   background: var(--color-bg-alt);
   padding: var(--space-md);
   border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-grid .button {
+  margin-top: auto;
+  align-self: start;
 }
