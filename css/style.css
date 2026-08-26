@@ -104,7 +104,7 @@ nav ul {
   gap: var(--space-md);
 }
 
-a[href^="tel:"] {
+a[href^="tel:"]:not(.button) {
   display: inline-block;
   padding: var(--space-xs);
 }
@@ -155,10 +155,6 @@ nav ul a {
   color: var(--color-text-muted);
 }
 
-#hero a[href^="tel:"] {
-  font-size: var(--text-h3);
-}
-
 .button {
   display: inline-block;
   background: var(--color-accent);
@@ -166,11 +162,18 @@ nav ul a {
   padding: var(--space-xs) var(--space-md);
   text-decoration: none;
   border-radius: var(--radius-sm);
+  border: 2px solid var(--color-accent);
 }
 
 .button:hover {
   background: var(--color-accent-hover);
   color: var(--color-paper-10);
+}
+
+.button-ghost {
+  background: transparent;
+  color: var(--color-accent);
+  border: 2px solid var(--color-accent);
 }
 
 footer {
@@ -202,4 +205,10 @@ footer address {
 .card-grid .button {
   margin-top: auto;
   align-self: start;
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
 }
