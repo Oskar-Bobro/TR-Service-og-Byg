@@ -186,7 +186,13 @@ footer address {
 }
 
 .card-grid {
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   gap: var(--space-md);
+}
+
+.card-grid article {
+  background: var(--color-bg-alt);
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
 }
