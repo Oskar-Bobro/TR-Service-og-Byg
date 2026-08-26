@@ -146,8 +146,8 @@ nav ul a {
   font-weight: 500;
 }
 
-#hero {
-  padding-block: var(--space-2xl);
+section + section {
+  margin-block-start: var(--space-2xl);
 }
 
 #hero p {
