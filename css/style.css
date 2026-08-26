@@ -184,3 +184,9 @@ footer address {
   font-style: normal;
   color: var(--color-text);
 }
+
+.card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  display: grid;
+  gap: var(--space-md);
+}
